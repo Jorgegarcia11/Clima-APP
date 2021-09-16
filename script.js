@@ -81,7 +81,7 @@ const getTemp = (obj) => {
 const getStatus = (obj) => {
 	console.log(obj)
 	//Lugar donde se encuentra la info que pedire
-	let status = (obj.list[0].weather[0].description);
+	let status = (obj.list[0].weather[0].description).toUpperCase();
 	//Extraer el estado al HTML
 	estadoChange.textContent = `${status}`
 }
