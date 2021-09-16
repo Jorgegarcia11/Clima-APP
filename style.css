@@ -1,0 +1,161 @@
+html, body { /*Importante*/
+    height: 100%;
+    font-family: sans-serif;
+    background-color: cadetblue;
+}
+
+* { /*Importante*/
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo{
+    background-image: url(Imagenes/Sky.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    height: 80%;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    Min-height: 90vh;
+    /*Esto es el sombreado del cuerpo*/
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.principal .search{
+    background-image: url(Imagenes/Lupa.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    width: 12%;
+    height: 42px;
+    background-color: orange;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.input1{
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.secundario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secundario > * {
+    margin-top: 80px;
+}
+
+.lugar{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.lugar :nth-child(1){
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lugar :nth-child(2){
+    font-size: larger;
+    margin-top: 10px;
+
+}
+
+.clima{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.clima :nth-child(1){
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.clima :nth-child(2){
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.estado{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.estado :nth-child(1){
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.estado :nth-child(2){
+    font-size: larger;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.hora{
+    color: white;
+    font-weight: bold;
+}
+
+.hora :nth-child(1){
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hora :nth-child(2){
+    font-size: larger;
+    margin-top: 10px;
+    color: white;
+}
+
+.fecha{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.fecha :nth-child(1){
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fecha :nth-child(2){
+    font-size: larger;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
