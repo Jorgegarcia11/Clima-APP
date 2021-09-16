@@ -19,7 +19,7 @@ html, body { /*Importante*/
     margin: auto;
     border-radius: 0.5rem;
     border: 1px solid black;
-    Min-height: 90vh;
+    Min-height: 99.8vh;
     /*Esto es el sombreado del cuerpo*/
     -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
     -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
